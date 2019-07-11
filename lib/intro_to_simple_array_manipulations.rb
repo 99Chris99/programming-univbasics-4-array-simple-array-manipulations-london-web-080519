@@ -34,7 +34,7 @@ def using_uniq(array)
   array.uniq
 end
 
-def using_flatten(array)
+def using_flattern(array)
   array.flattern
 end
 
@@ -44,5 +44,5 @@ def using_delete(array, string)
 end
 
 def using_delete_at(array, integer)
-  array.delete(integer)
+  array.delete_at(integer)
 end
